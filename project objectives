@@ -1,0 +1,37 @@
+<!-- Create a full featured CRUD RESTful Web API of marvel comic characters (OR other data of your choosing)
+
+Requirements:
+Create Login functionality for users - Email/Password
+Database should be created with PostgreSQL
+Virtual environment for project
+Marvel Character Model should include the following fields:
+- id (Integer)
+- name (String)
+- description (String)
+- comics_appeared_in (Integer)
+- super_power (String)
+- date_created (DateTime w/ datetime.utcnow)
+
+Users should include at minimum the following fields:
+- id (uuid)
+- name (String)
+- email(String)
+- password (String)[Hashed]
+- date_created (DateTime)[w/ datetime.utcnow]
+
+
+Users should be able to own their own collection of Characters. How you implement this is up to you.
+- a pythonic approach may involve Users possessing a list or other structure of characters (by id? by object?)
+- a SQL oriented approach may involve a one-to-many relationship between Users and Characters (similar to users and
+posts in our tweety blog)
+
+X-Packages for project should include (prefaced by pip install)
+X-Flask
+X-Flask-Login
+X-Flask-SQLAlchemy
+X-Flask-Migrate
+X-Flask-WTF
+X-psycopg2 OR psycopg2-binary
+X-python-dotenv
+X-email-validator
+X-Gunicorn (Deployment) -->
